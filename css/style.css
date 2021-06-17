@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 body {
-    /* background: url(../assets/bg-pattern-top.svg) no-repeat; */
-    /* background-image: url(../assets/bg-pattern-top.svg) url(../assets/bg-pattern-bottom.svg); */
     background: url(../assets/bg-pattern-top.svg) left top, url(../assets/bg-pattern-bottom.svg) right bottom;
     background-size: 50% 50%;
-    /* background-position-x: -25%; */
     background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%);
     display: flex;
@@ -15,8 +12,8 @@ body {
 }
 
 .card {
-    width: 50%; 
-    height: 60%;
+    width: 320px; 
+    height: 350px;
     border-radius: 18px;
     overflow: hidden;
     background: white;
@@ -25,18 +22,18 @@ body {
 img {
     border-radius: 50%;
     position: absolute;
-    top: 37.5%;
-    margin-left: 22%;
+    top: 225px;
+    margin-left: 120px;
 }
 
 .top-card {
-    height: 40%;
+    height: 122.5px;
     background: url(../assets/bg-pattern-card.svg);
 }
 
 .bottom-card {
-    height: 80%;
-    margin-top: 5%;
+    height: 227.5px;
+    margin-top: 12%;
 }
 
 .info {
@@ -44,10 +41,19 @@ img {
     text-align: center;
 }
 
+.top-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .bottom-bottom-card {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    padding-left: 20%;
+    padding-left: 20px;
+    column-gap: 10px;
+    text-align: center;
 }
 
 .heavy {
